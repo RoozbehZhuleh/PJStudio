@@ -1,6 +1,6 @@
 #signup {
   margin-top: 15rem;
-  background: linear-gradient(180deg, #faaca8 2%, #f3f3f3 98%);
+  background: linear-gradient(360deg, #faaca8 2%, #f3f3f3 98%);
 }
 
 .signup__wrapper {
@@ -15,14 +15,18 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
-  -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+
   border-radius: 1.5rem;
   margin-top: 5rem;
   padding: 2rem 3rem;
   max-width: 70rem;
-  /* min-width: 50rem; */
   max-height: 60rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.signup__text:hover {
+  box-shadow: 2rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.5);
+  -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.5);
 }
 
 .signup__text h2 {

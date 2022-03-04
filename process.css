@@ -1,14 +1,14 @@
 #our-process {
-  min-height: 20vh;
+  min-height: 15vh;
 }
 
 .process__wrapper {
-  min-height: 30rem;
+  min-height: 40rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(20deg, #faaca8 5%, #f3f3f3 90%);
+  background: linear-gradient(360deg, #faaca8 5%, #fdfdfd 90%);
 }
 .process__item h2 {
   font-size: 3.5rem;
@@ -69,10 +69,10 @@ i.box--testing {
 
 .process__active {
   transition: all 0.3s ease-in-out;
-  box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
-  -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
 }
 
 .process__active:hover {
   transform: translateY(-1.5rem);
+  box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+  -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
 }

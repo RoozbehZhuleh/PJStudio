@@ -1,7 +1,7 @@
 #customize {
-  /* min-height: 80vh; */
+  min-height: 60rem;
   margin-top: 20rem;
-  background: linear-gradient(20deg, #faaca8 5%, #f3f3f3 90%);
+  background: linear-gradient(180deg, #faaca8 5%, #f3f3f3 90%);
 }
 
 .customize__wrapper {
@@ -19,7 +19,7 @@
 }
 
 .customize__text--box {
-  margin-top: 1rem;
+  margin-top: 2.8rem;
   font-size: 1.5rem;
   padding: 3rem 2rem;
   transition: all 0.3s ease-in-out;
@@ -68,6 +68,7 @@
 
 .customize__text--box:hover {
   transform: translateX(-2rem);
+  box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.5);
 }
 
 .customize__text--box:hover::before {

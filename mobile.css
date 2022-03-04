@@ -1,12 +1,8 @@
-#mobile {
-  min-height: 80vh;
-}
-
 .mobile__wrapper {
   margin-top: 15rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -14,8 +10,8 @@
   border-radius: 1.5rem;
   margin-top: 5rem;
   padding: 2rem 5rem;
-  max-width: 70rem;
-  min-width: 50rem;
+  /* max-width: 70rem; */
+  min-width: 30rem;
   max-height: 60rem;
   position: relative;
   top: 5rem;
@@ -71,7 +67,6 @@
 }
 
 .mobile__icons--square {
-  /* font-size: 3rem; */
   padding: 1rem;
   border-radius: 1.5rem;
   background-color: rgb(68, 212, 215);
