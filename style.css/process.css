@@ -8,10 +8,9 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(360deg, #faaca8 5%, #fdfdfd 90%);
 }
 .process__item h2 {
-  font-size: 3.5rem;
+  font-size: var(--font-xl);
   font-weight: 700;
   line-height: 3.5rem;
   margin-bottom: 1.5rem;
@@ -19,7 +18,7 @@
 }
 
 .process__item p {
-  font-size: 1.8rem;
+  font-size: var(--font-m);
   opacity: 0.9;
   color: var(--secondary-color);
 }
