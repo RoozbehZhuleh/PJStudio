@@ -1,7 +1,7 @@
 #customize {
   min-height: 60rem;
   margin-top: 20rem;
-  background: linear-gradient(180deg, #faaca8 5%, #f3f3f3 90%);
+  background: linear-gradient(90deg, #cba8fa 5%, #e6b8ff 90%);
 }
 
 .customize__wrapper {
@@ -39,7 +39,7 @@
 .customize__text--cms::before {
   display: block;
   content: " ";
-  background-color: red;
+  background-color: rgb(120, 224, 0);
   height: 1rem;
   width: 40%;
   border-radius: 1.5rem;
@@ -59,7 +59,7 @@
 .customize__text--submission::before {
   display: block;
   content: " ";
-  background-color: red;
+  background-color: rgb(138, 42, 249);
   height: 1rem;
   width: 100%;
   border-radius: 1.5rem;

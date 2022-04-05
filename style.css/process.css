@@ -8,6 +8,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  
 }
 .process__item h2 {
   font-size: var(--font-xl);
@@ -67,11 +68,12 @@ i.box--testing {
 }
 
 .process__active {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s linear;
 }
 
 .process__active:hover {
   transform: translateY(-1.5rem);
   box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
   -webkit-box-shadow: 3rem 2.5rem 3rem 2rem rgba(128, 128, 128, 0.097);
+  background: linear-gradient(90deg, #cba8fa 5%, #e6b8ff 90%);
 }
