@@ -9,6 +9,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .customize__text {
@@ -73,4 +74,10 @@
 
 .customize__text--box:hover::before {
   width: 2%;
+}
+
+svg{
+  position: relative;
+  top: 30%;
+  left: 20%;
 }

@@ -1,13 +1,14 @@
 #our-process {
-  min-height: 15vh;
+padding: 10rem 0 0 0;
 }
 
 .process__wrapper {
-  min-height: 40rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+
   
 }
 .process__item h2 {
@@ -32,6 +33,7 @@
   align-items: center;
   border-radius: 1.5rem;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .process__item--box i {

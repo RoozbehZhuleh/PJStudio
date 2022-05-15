@@ -1,11 +1,11 @@
 #hero {
-  min-height: 70vh;
+padding: 3rem 0 0 0;
 }
 
 .hero__wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   /* margin: 12rem 2rem 1rem 0; */
   width: 100%;
@@ -15,8 +15,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  width:50%;
+  align-items: flex-start;
+  /* width:50%; */
 }
 .hero__item--left h1 {
   font-size: var(--font-xxl);
@@ -35,18 +35,19 @@
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 1rem;
   align-items: center;
 }
 
 .hero__btn {
   padding: 1.5rem 2.5rem;
   font-size: 1.8rem;
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
 }
 
 .hero__item--right{
-  width: 50%;
+  /* width: 50%; */
 }
 
 .hero__item--right img{
