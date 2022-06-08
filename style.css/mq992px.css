@@ -1,0 +1,12 @@
+@media all and (max-width: 1000px){
+    /* hero */
+    .hero__wrapper {
+        /* flex-basis: 350px; */
+        flex-wrap: wrap;
+    }
+
+    .hero__item__right img{
+        width: 50rem;
+    }
+
+}

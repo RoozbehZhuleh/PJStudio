@@ -1,7 +1,9 @@
 #customize {
-  min-height: 60rem;
+  /* min-height: 60rem; */
   margin-top: 20rem;
   background: linear-gradient(90deg, #cba8fa 5%, #e6b8ff 90%);
+  /* opacity: 0; */
+  transition: all 0.3s ease;
 }
 
 .customize__wrapper {

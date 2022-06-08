@@ -1,5 +1,7 @@
 #mobile{
-  padding: 10rem 0 0 0;
+  margin: 10rem 0 0 0;
+  transition: all 0.4s ease;
+  opacity: 0;
 }
 
 .mobile__wrapper {
@@ -41,19 +43,20 @@
 
 .mobile__text h5 {
   color: var(--secondary-color);
-  font-size: 2.5rem;
-  font-weight: 10;
+  font-size: var(--font-m);
+  font-weight: 150;
   /* padding: 0 0 3rem 0; */
 }
 
 .mobile__text h2 {
-  font-size: 5rem;
+  font-size: var(--font-xl);
+  font-weight: var(--font-bold);
   /* padding-bottom: 2rem; */
 }
 
 .mobile__text p {
   color: var(--secondary-color);
-  font-size: 2rem;
+  font-size: var(--font-m)
 }
 
 .mobile__icons {

@@ -1,4 +1,5 @@
 #header {
+  margin: 1rem 0 0 0;
 }
 
 .navbar {
@@ -10,6 +11,7 @@
 
 .navbar__logo img {
   width: 15rem;
+  cursor: pointer;
 }
 
 .nav__lists {
@@ -31,20 +33,20 @@
 }
 
 
-.nav__list {
+.nav__list__item {
   margin: 0 0.5rem;
   color: var(--dark-color);
   transition: all 0.2s ease-in-out;
   font-size: var(--font-m);
 }
 
-.nav__list:hover {
+.nav__list__item:hover {
   color: var(--primary-color);
   transform: translateY(-0.2rem);
 
 }
 
-.nav__list:hover::after{
+.nav__list__item:hover::after{
   width:100%
 
 }

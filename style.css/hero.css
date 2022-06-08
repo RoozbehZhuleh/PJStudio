@@ -1,5 +1,5 @@
 #hero {
-padding: 3rem 0 0 0;
+margin: 3rem 0 0 0;
 }
 
 .hero__wrapper {
@@ -7,31 +7,34 @@ padding: 3rem 0 0 0;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* margin: 12rem 2rem 1rem 0; */
-  width: 100%;
+  /* width: 100%; */
 }
 
-.hero__item--left {
+.hero__item__left {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
-  /* width:50%; */
+  gap: 1rem;
+  border-radius: 56% 44% 63% 37% / 30% 30% 70% 70%;
+  background-color: var(--accent-color);
+  animation: blob 30s linear infinite;
+
 }
-.hero__item--left h1 {
+.hero__item__left h1 {
   font-size: var(--font-xxl);
-  font-weight: 700;
+  font-weight: var(--font-bold);
   color: var(--dark-color);
   margin-bottom: 2.5rem;
-  line-height: 8rem;
+  line-height: 5.5rem;
 }
 
-.hero__item--left p {
+.hero__item__left p {
   color: var(--secondary-color);
   font-size: var(--font-m);
 }
 
-.left--item__demo {
+.left__item__demo {
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
@@ -46,12 +49,12 @@ padding: 3rem 0 0 0;
   /* margin: 0 1rem; */
 }
 
-.hero__item--right{
+.hero__item__right{
   /* width: 50%; */
 }
 
-.hero__item--right img{
+.hero__item__right img{
   opacity: 0.9rem;
   /* height: 50rem; */
-  width: 99%;
+  width: 70rem;
 }

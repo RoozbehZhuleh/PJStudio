@@ -15,22 +15,29 @@
   --accent-color: #d57d00;
   --light-color: #f7f7f7;
   --secondary-color: #515151;
+  --blob--1: #d57c0070;
+  --blob--2: #7754f761;
+  --blob--3: #51515135;
   --border-radius-sm: 0.5rem;
   --border-radius-md: 1rem;
   --border-radius-lg: 1.5rem;
 
   --font-s: 1.5rem;
-  --font-m: 1.8rem;
-  --font-ml: 2.5rem;
-  --font-l: 3rem;
-  --font-xl: 4rem;
-  --font-xxl: 7rem;
+  --font-m: 1.9rem;
+  --font-ml: 2.3rem;
+  --font-l: 2.6rem;
+  --font-xl: 3.2rem;
+  --font-xxl: 5rem;
+  --font-normal: 200;
+  --font-bold: 400;
+  --font-extra: 600;
 }
 
 html {
   font-size: 62.5%;
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   scroll-behavior: smooth;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -57,10 +64,9 @@ a {
 }
 
 .container {
-  width: 1400px;
+  width: 1300px;
   max-width: 90%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
@@ -85,4 +91,56 @@ a {
   color: var(--dark-color);
 
   box-shadow: inset 0 0 0 0.2rem var(--primary-color);
+}
+
+.hide {
+  opacity: 0;
+
+}
+
+.show {
+  opacity: 1;
+
+}
+
+@keyframes blob{
+  0%{
+    border-radius: 56% 44% 63% 37% / 30% 30% 70% 70%;
+    background-color: var(--blob--1);
+  }
+  10%{
+    border-radius: 76% 24% 63% 37% / 79% 58% 42% 21%;
+  }
+  20%{
+    border-radius: 76% 24% 13% 87% / 31% 19% 81% 69%;
+    background-color: var(--blob--2);
+  }
+  30%{
+    border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;
+  }
+  40%{
+    border-radius: 51% 49% 50% 50% / 44% 46% 54% 56%;
+    background-color: var(--blob--3);
+  }
+  50%{
+    border-radius: 38% 62% 11% 89% / 0% 80% 20% 100%;
+  }
+  60%{
+    border-radius: 88% 12% 89% 11% / 86% 13% 87% 14%;
+    background-color: var(--blob--2);
+  }
+  70%{
+    border-radius: 43% 57% 89% 11% / 86% 69% 31% 14%;
+  }
+  80%{
+    border-radius: 9% 91% 49% 51% / 91% 69% 31% 9%;
+    background-color: var(--blob--3);
+  }
+  90%{
+    border-radius: 9% 91% 49% 51% / 7% 17% 83% 93%;
+  }
+  100%{
+    border-radius: 56% 44% 63% 37% / 30% 30% 70% 70%;
+    background-color: var(--blob--1);
+  }
 }
