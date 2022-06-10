@@ -105,5 +105,9 @@
   height: 3rem;
   position: relative;
   top: -1rem;
+  border: 1px solid var(--secondary-color);
   border-radius: 0.5rem;
+  text-align: center;
+  outline: none;
+  background: transparent;
 }

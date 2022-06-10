@@ -18,15 +18,16 @@ margin: 3rem 0 0 0;
   gap: 1rem;
   border-radius: 56% 44% 63% 37% / 30% 30% 70% 70%;
   background-color: var(--accent-color);
-  animation: blob 30s linear infinite;
+  -webkit-animation: blob 30s linear infinite;
+          animation: blob 30s linear infinite;
 
 }
 .hero__item__left h1 {
-  font-size: var(--font-xxl);
+  font-size: var(--font-xxxl);
   font-weight: var(--font-bold);
   color: var(--dark-color);
   margin-bottom: 2.5rem;
-  line-height: 5.5rem;
+  line-height: 7rem;
 }
 
 .hero__item__left p {
