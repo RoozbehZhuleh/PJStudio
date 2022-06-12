@@ -43,7 +43,8 @@ padding: 5rem 0 0 0;
 }
 
 .web-development__text h2 {
-  font-size: 5rem;
+  font-size: var(--font-xl);
+  font-weight: var(--font-bold);
   padding-bottom: 2rem;
 }
 

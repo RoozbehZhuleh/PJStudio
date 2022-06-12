@@ -1,4 +1,4 @@
-@media all and (max-width: 1000px){
+@media (max-width: 1000px){
     /* hero */
     .hero__wrapper {
         /* flex-basis: 350px; */

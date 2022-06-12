@@ -105,6 +105,14 @@ a {
 
 }
 
+.rotate{
+  transform: rotate(-90deg);
+}
+
+.display--block {
+  display: block;
+}
+
 @-webkit-keyframes blob{
   0%{
     border-radius: 56% 44% 63% 37% / 30% 30% 70% 70%;

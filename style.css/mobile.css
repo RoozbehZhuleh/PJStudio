@@ -1,7 +1,6 @@
 #mobile{
-  margin: 10rem 0 0 0;
+  /* margin: 10rem 0 0 0; */
   transition: all 0.4s ease;
-  opacity: 0;
 }
 
 .mobile__wrapper {
@@ -13,6 +12,7 @@
 }
 
 .mobile__text {
+  
   border-radius: 1.5rem;
   width: 70rem;
   padding: 3rem;
@@ -78,6 +78,8 @@
 
 .mobile__icons--design:hover {
   transform: translateY(-1.5rem);
+  -webkit-transform: translateY(-1.5rem);
+  -moz-transform: translateY(-1.5rem);
 }
 
 .mobile__icons--square {
