@@ -109,8 +109,8 @@ a {
   transform: rotate(-90deg);
 }
 
-.display--block {
-  display: block;
+.display--flex {
+  display: flex;
 }
 
 @-webkit-keyframes blob{

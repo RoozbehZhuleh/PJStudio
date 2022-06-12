@@ -44,5 +44,5 @@ const burgerMenu = document.querySelector(".burger__menu");
 
 burgerIcon.addEventListener("click", () => {
     burgerIcon.classList.toggle("rotate");
-    burgerMenu.classList.toggle("display--block")
+    burgerMenu.classList.toggle("display--flex")
 })

@@ -91,13 +91,16 @@
 .footer__item--newsletter {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
 
 .footer__item--newsletter h5 {
   font-weight: 400;
   font-size: 2.5rem;
   position: relative;
-  top: -8.5rem;
+  /* top: -8.5rem; */
 }
 
 .footer__item--newsletter input {
