@@ -1,6 +1,6 @@
 # PJ Studio
 
-<a href="https://roozbehzhuleh.github.io/PJStudio/">LIVE</a>
+<a href="https://roozbehzhuleh.github.io/PJStudio/">LIVE Preview</a>
 
 ## Intro
 
